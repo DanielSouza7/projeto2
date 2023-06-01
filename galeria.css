@@ -1,0 +1,105 @@
+html {font-family: cursive;}
+body {background-color: black;}
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
+    background-color: #520c5d;
+}
+
+.logo_nome {
+    width: 295px;
+    height: 48px;
+    background-image: url(logo+nome.png);
+    background-size: contain;
+    margin-right: 30%;
+}
+
+.link_header {
+    width: 50%;
+    padding: 100px 10px;
+    vertical-align: middle;
+    text-decoration-color: white;
+    color: white;
+}
+
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line {
+    position: relative;
+    margin-left: 0;
+    margin-right: auto;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloco {
+    width: 24%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space {width: 1%;}
+
+.play {
+    height: 250px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.swit {
+    height: 250px;
+    background-color: lightcoral;
+    border: 1px solid crimson;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.xbox {
+    height: 250px;
+    background-color: lightgreen;
+    border: 1px solid green;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.img1 {
+    width: 160px;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
+.img2 {
+    width: 121px;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h4 {margin: auto;}
+h5 {margin: auto;}
