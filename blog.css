@@ -1,0 +1,105 @@
+html {font-family: cursive;}
+body {background-color: black;}
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
+    background-color: #520c5d;
+}
+
+.logo_nome {
+    width: 295px;
+    height: 48px;
+    background-image: url(logo+nome.png);
+    background-size: contain;
+    margin-right: 30%;
+}
+
+.link_header {
+    width: 50%;
+    padding: 100px 10px;
+    vertical-align: middle;
+    text-decoration-color: white;
+    color: white;
+}
+
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line {
+    position: relative;
+    margin-left: 0;
+    margin-right: auto;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloco {
+    width: 80%;
+    height: auto;
+    background-color: #520c5d;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_1 {
+    width: 350px;
+    height: 200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.img_2 {
+    width: 350px;
+    height: 200px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.tit_h1 {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
